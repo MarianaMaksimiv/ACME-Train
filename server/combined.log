@@ -1,0 +1,127 @@
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-01-23T21:13:31.081Z"}
+{"level":"info","message":{"body":{"path":["A","B"]},"method":"POST","path":"/api/distance","timestamp":"2025-01-23T21:14:59.847Z"},"timestamp":"2025-01-23T21:14:59.847Z"}
+{"level":"info","message":"Received distance calculation request for path: A,B","timestamp":"2025-01-23T21:14:59.847Z"}
+{"level":"info","message":{"body":{"path":["A","B","C"]},"method":"POST","path":"/api/distance","timestamp":"2025-01-23T21:15:10.523Z"},"timestamp":"2025-01-23T21:15:10.524Z"}
+{"level":"info","message":"Received distance calculation request for path: A,B,C","timestamp":"2025-01-23T21:15:10.524Z"}
+{"level":"info","message":{"body":{"path":["A","D"]},"method":"POST","path":"/api/distance","timestamp":"2025-01-23T21:15:10.530Z"},"timestamp":"2025-01-23T21:15:10.530Z"}
+{"level":"info","message":"Received distance calculation request for path: A,D","timestamp":"2025-01-23T21:15:10.530Z"}
+{"level":"info","message":{"body":{"end":"C","maxStops":3,"start":"C"},"method":"POST","path":"/api/routes/max-stops","timestamp":"2025-01-23T21:15:10.534Z"},"timestamp":"2025-01-23T21:15:10.534Z"}
+{"level":"info","message":"Received route calculation request for max stops from C to C with max stops 3","timestamp":"2025-01-23T21:15:10.534Z"}
+{"level":"info","message":{"body":{"end":"C","exactStops":4,"start":"A"},"method":"POST","path":"/api/routes/exact-stops","timestamp":"2025-01-23T21:15:10.538Z"},"timestamp":"2025-01-23T21:15:10.538Z"}
+{"level":"info","message":"Received route calculation request for exact stops from A to C with exact stops 4","timestamp":"2025-01-23T21:15:10.538Z"}
+{"level":"info","message":{"body":{"end":"C","start":"A"},"method":"POST","path":"/api/routes/shortest","timestamp":"2025-01-23T21:15:10.542Z"},"timestamp":"2025-01-23T21:15:10.542Z"}
+{"level":"info","message":"Received shortest route calculation request from A to C","timestamp":"2025-01-23T21:15:10.542Z"}
+{"level":"info","message":{"body":{"end":"C","start":"C","withinDistance":30},"method":"POST","path":"/api/routes/within-distance","timestamp":"2025-01-23T21:15:10.545Z"},"timestamp":"2025-01-23T21:15:10.545Z"}
+{"level":"info","message":"Finding routes from C to C within distance 30","timestamp":"2025-01-23T21:15:10.546Z"}
+{"level":"info","message":{"body":{"end":"C","exactStops":"","maxStops":"","start":"A","withinDistance":""},"method":"POST","path":"/api/routes/shortest","timestamp":"2025-01-23T21:15:32.763Z"},"timestamp":"2025-01-23T21:15:32.763Z"}
+{"level":"info","message":"Received shortest route calculation request from A to C","timestamp":"2025-01-23T21:15:32.764Z"}
+{"level":"info","message":{"body":{"end":"C","exactStops":"","maxStops":"","start":"C","withinDistance":"30"},"method":"POST","path":"/api/routes/within-distance","timestamp":"2025-01-23T21:28:58.991Z"},"timestamp":"2025-01-23T21:28:58.991Z"}
+{"level":"info","message":"Finding routes from C to C within distance 30","timestamp":"2025-01-23T21:28:58.992Z"}
+{"level":"info","message":{"body":{"end":"C","exactStops":"2","maxStops":"","start":"A","withinDistance":""},"method":"POST","path":"/api/routes/exact-stops","timestamp":"2025-01-23T21:29:20.730Z"},"timestamp":"2025-01-23T21:29:20.730Z"}
+{"level":"info","message":"Received route calculation request for exact stops from A to C with exact stops 2","timestamp":"2025-01-23T21:29:20.730Z"}
+{"level":"info","message":{"body":{"end":"C","exactStops":"3","maxStops":"","start":"A","withinDistance":""},"method":"POST","path":"/api/routes/exact-stops","timestamp":"2025-01-23T21:29:29.557Z"},"timestamp":"2025-01-23T21:29:29.557Z"}
+{"level":"info","message":"Received route calculation request for exact stops from A to C with exact stops 3","timestamp":"2025-01-23T21:29:29.557Z"}
+{"level":"info","message":{"body":{"end":"C","exactStops":"4","maxStops":"","start":"A","withinDistance":""},"method":"POST","path":"/api/routes/exact-stops","timestamp":"2025-01-23T21:29:34.074Z"},"timestamp":"2025-01-23T21:29:34.074Z"}
+{"level":"info","message":"Received route calculation request for exact stops from A to C with exact stops 4","timestamp":"2025-01-23T21:29:34.075Z"}
+{"level":"info","message":{"body":{"end":"A","exactStops":"4","maxStops":"","start":"A","withinDistance":""},"method":"POST","path":"/api/routes/exact-stops","timestamp":"2025-01-23T21:29:43.672Z"},"timestamp":"2025-01-23T21:29:43.672Z"}
+{"level":"info","message":"Received route calculation request for exact stops from A to A with exact stops 4","timestamp":"2025-01-23T21:29:43.672Z"}
+{"level":"info","message":{"body":{"end":"A","exactStops":"","maxStops":"","start":"A","withinDistance":""},"method":"POST","path":"/api/routes/shortest","timestamp":"2025-01-23T21:29:53.175Z"},"timestamp":"2025-01-23T21:29:53.175Z"}
+{"level":"info","message":"Received shortest route calculation request from A to A","timestamp":"2025-01-23T21:29:53.175Z"}
+{"level":"info","message":{"body":{"path":["A","B","C"]},"method":"POST","path":"/api/distance","timestamp":"2025-01-23T21:30:10.191Z"},"timestamp":"2025-01-23T21:30:10.191Z"}
+{"level":"info","message":"Received distance calculation request for path: A,B,C","timestamp":"2025-01-23T21:30:10.191Z"}
+{"level":"info","message":{"body":{"path":["A","D"]},"method":"POST","path":"/api/distance","timestamp":"2025-01-23T21:30:10.195Z"},"timestamp":"2025-01-23T21:30:10.195Z"}
+{"level":"info","message":"Received distance calculation request for path: A,D","timestamp":"2025-01-23T21:30:10.195Z"}
+{"level":"info","message":{"body":{"end":"C","maxStops":3,"start":"C"},"method":"POST","path":"/api/routes/max-stops","timestamp":"2025-01-23T21:30:10.200Z"},"timestamp":"2025-01-23T21:30:10.200Z"}
+{"level":"info","message":"Received route calculation request for max stops from C to C with max stops 3","timestamp":"2025-01-23T21:30:10.200Z"}
+{"level":"info","message":{"body":{"end":"C","exactStops":4,"start":"A"},"method":"POST","path":"/api/routes/exact-stops","timestamp":"2025-01-23T21:30:10.204Z"},"timestamp":"2025-01-23T21:30:10.204Z"}
+{"level":"info","message":"Received route calculation request for exact stops from A to C with exact stops 4","timestamp":"2025-01-23T21:30:10.204Z"}
+{"level":"info","message":{"body":{"end":"C","start":"A"},"method":"POST","path":"/api/routes/shortest","timestamp":"2025-01-23T21:30:10.208Z"},"timestamp":"2025-01-23T21:30:10.208Z"}
+{"level":"info","message":"Received shortest route calculation request from A to C","timestamp":"2025-01-23T21:30:10.209Z"}
+{"level":"info","message":{"body":{"end":"C","start":"C","withinDistance":30},"method":"POST","path":"/api/routes/within-distance","timestamp":"2025-01-23T21:30:10.212Z"},"timestamp":"2025-01-23T21:30:10.212Z"}
+{"level":"info","message":"Finding routes from C to C within distance 30","timestamp":"2025-01-23T21:30:10.212Z"}
+{"level":"info","message":{"body":{"path":["A","B","C"]},"method":"POST","path":"/api/distance","timestamp":"2025-01-23T21:31:26.527Z"},"timestamp":"2025-01-23T21:31:26.527Z"}
+{"level":"info","message":"Received distance calculation request for path: A,B,C","timestamp":"2025-01-23T21:31:26.528Z"}
+{"level":"info","message":{"body":{"path":["A","D"]},"method":"POST","path":"/api/distance","timestamp":"2025-01-23T21:31:26.544Z"},"timestamp":"2025-01-23T21:31:26.544Z"}
+{"level":"info","message":"Received distance calculation request for path: A,D","timestamp":"2025-01-23T21:31:26.544Z"}
+{"level":"info","message":{"body":{"end":"C","maxStops":3,"start":"C"},"method":"POST","path":"/api/routes/max-stops","timestamp":"2025-01-23T21:31:26.548Z"},"timestamp":"2025-01-23T21:31:26.548Z"}
+{"level":"info","message":"Received route calculation request for max stops from C to C with max stops 3","timestamp":"2025-01-23T21:31:26.548Z"}
+{"level":"info","message":{"body":{"end":"C","exactStops":4,"start":"A"},"method":"POST","path":"/api/routes/exact-stops","timestamp":"2025-01-23T21:31:26.552Z"},"timestamp":"2025-01-23T21:31:26.552Z"}
+{"level":"info","message":"Received route calculation request for exact stops from A to C with exact stops 4","timestamp":"2025-01-23T21:31:26.552Z"}
+{"level":"info","message":{"body":{"end":"C","start":"A"},"method":"POST","path":"/api/routes/shortest","timestamp":"2025-01-23T21:31:26.556Z"},"timestamp":"2025-01-23T21:31:26.556Z"}
+{"level":"info","message":"Received shortest route calculation request from A to C","timestamp":"2025-01-23T21:31:26.556Z"}
+{"level":"info","message":{"body":{"end":"C","start":"C","withinDistance":30},"method":"POST","path":"/api/routes/within-distance","timestamp":"2025-01-23T21:31:26.560Z"},"timestamp":"2025-01-23T21:31:26.560Z"}
+{"level":"info","message":"Finding routes from C to C within distance 30","timestamp":"2025-01-23T21:31:26.560Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-01-23T22:41:46.602Z"}
+{"level":"info","message":{"body":{"path":["C","D"]},"method":"POST","path":"/api/distance","timestamp":"2025-01-23T22:42:25.942Z"},"timestamp":"2025-01-23T22:42:25.942Z"}
+{"level":"info","message":"Received distance calculation request for path: C,D","timestamp":"2025-01-23T22:42:25.942Z"}
+{"level":"info","message":{"body":{"path":["A","B","C"]},"method":"POST","path":"/api/distance","timestamp":"2025-01-23T22:42:31.016Z"},"timestamp":"2025-01-23T22:42:31.016Z"}
+{"level":"info","message":"Received distance calculation request for path: A,B,C","timestamp":"2025-01-23T22:42:31.016Z"}
+{"level":"info","message":{"body":{"path":["A","D"]},"method":"POST","path":"/api/distance","timestamp":"2025-01-23T22:42:31.022Z"},"timestamp":"2025-01-23T22:42:31.022Z"}
+{"level":"info","message":"Received distance calculation request for path: A,D","timestamp":"2025-01-23T22:42:31.023Z"}
+{"level":"info","message":{"body":{"end":"C","maxStops":3,"start":"C"},"method":"POST","path":"/api/routes/max-stops","timestamp":"2025-01-23T22:42:31.029Z"},"timestamp":"2025-01-23T22:42:31.029Z"}
+{"level":"info","message":"Received route calculation request for max stops from C to C with max stops 3","timestamp":"2025-01-23T22:42:31.030Z"}
+{"level":"info","message":{"body":{"end":"C","exactStops":4,"start":"A"},"method":"POST","path":"/api/routes/exact-stops","timestamp":"2025-01-23T22:42:31.035Z"},"timestamp":"2025-01-23T22:42:31.035Z"}
+{"level":"info","message":"Received route calculation request for exact stops from A to C with exact stops 4","timestamp":"2025-01-23T22:42:31.036Z"}
+{"level":"info","message":{"body":{"end":"C","start":"A"},"method":"POST","path":"/api/routes/shortest","timestamp":"2025-01-23T22:42:31.040Z"},"timestamp":"2025-01-23T22:42:31.040Z"}
+{"level":"info","message":"Received shortest route calculation request from A to C","timestamp":"2025-01-23T22:42:31.041Z"}
+{"level":"info","message":{"body":{"end":"C","start":"C","withinDistance":30},"method":"POST","path":"/api/routes/within-distance","timestamp":"2025-01-23T22:42:31.044Z"},"timestamp":"2025-01-23T22:42:31.044Z"}
+{"level":"info","message":"Finding routes from C to C within distance 30","timestamp":"2025-01-23T22:42:31.044Z"}
+{"level":"info","message":{"body":{"end":"C","exactStops":"","maxStops":"","start":"E","withinDistance":"2"},"method":"POST","path":"/api/routes/within-distance","timestamp":"2025-01-23T22:42:47.575Z"},"timestamp":"2025-01-23T22:42:47.575Z"}
+{"level":"info","message":"Finding routes from E to C within distance 2","timestamp":"2025-01-23T22:42:47.575Z"}
+{"level":"info","message":{"body":{"end":"C","exactStops":"","maxStops":"","start":"E","withinDistance":"3"},"method":"POST","path":"/api/routes/within-distance","timestamp":"2025-01-23T22:42:50.645Z"},"timestamp":"2025-01-23T22:42:50.645Z"}
+{"level":"info","message":"Finding routes from E to C within distance 3","timestamp":"2025-01-23T22:42:50.646Z"}
+{"level":"info","message":{"body":{"end":"C","exactStops":"","maxStops":"","start":"E","withinDistance":"1"},"method":"POST","path":"/api/routes/within-distance","timestamp":"2025-01-23T22:43:02.015Z"},"timestamp":"2025-01-23T22:43:02.015Z"}
+{"level":"info","message":"Finding routes from E to C within distance 1","timestamp":"2025-01-23T22:43:02.015Z"}
+{"level":"info","message":{"body":{"end":"C","exactStops":"2","maxStops":"","start":"E","withinDistance":""},"method":"POST","path":"/api/routes/exact-stops","timestamp":"2025-01-23T22:43:21.459Z"},"timestamp":"2025-01-23T22:43:21.459Z"}
+{"level":"info","message":"Received route calculation request for exact stops from E to C with exact stops 2","timestamp":"2025-01-23T22:43:21.460Z"}
+{"level":"info","message":{"body":{"end":"C","exactStops":"","maxStops":"","start":"E","withinDistance":"20"},"method":"POST","path":"/api/routes/within-distance","timestamp":"2025-01-23T22:43:38.994Z"},"timestamp":"2025-01-23T22:43:38.994Z"}
+{"level":"info","message":"Finding routes from E to C within distance 20","timestamp":"2025-01-23T22:43:38.995Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-01-25T01:57:07.001Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/distance","timestamp":"2025-01-25T01:57:53.133Z"},"timestamp":"2025-01-25T01:57:53.133Z"}
+{"level":"info","message":"Received distance calculation request for path: A,B","timestamp":"2025-01-25T01:57:53.133Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/max-stops","timestamp":"2025-01-25T01:58:24.201Z"},"timestamp":"2025-01-25T01:58:24.201Z"}
+{"level":"info","message":"Received route calculation request for max stops from A to B with max stops 1","timestamp":"2025-01-25T01:58:24.201Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/exact-stops","timestamp":"2025-01-25T01:58:36.383Z"},"timestamp":"2025-01-25T01:58:36.383Z"}
+{"level":"info","message":"Received route calculation request for exact stops from E to C with exact stops 2","timestamp":"2025-01-25T01:58:36.384Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/exact-stops","timestamp":"2025-01-25T01:58:40.187Z"},"timestamp":"2025-01-25T01:58:40.187Z"}
+{"level":"info","message":"Received route calculation request for exact stops from E to C with exact stops 3","timestamp":"2025-01-25T01:58:40.188Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/exact-stops","timestamp":"2025-01-25T01:58:42.942Z"},"timestamp":"2025-01-25T01:58:42.942Z"}
+{"level":"info","message":"Received route calculation request for exact stops from E to C with exact stops 4","timestamp":"2025-01-25T01:58:42.942Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/shortest","timestamp":"2025-01-25T01:58:54.080Z"},"timestamp":"2025-01-25T01:58:54.080Z"}
+{"level":"info","message":"Received shortest route calculation request from E to C","timestamp":"2025-01-25T01:58:54.081Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/within-distance","timestamp":"2025-01-25T01:59:06.361Z"},"timestamp":"2025-01-25T01:59:06.361Z"}
+{"level":"info","message":"Finding routes from C to C within distance 30","timestamp":"2025-01-25T01:59:06.362Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/distance","timestamp":"2025-01-25T01:59:17.244Z"},"timestamp":"2025-01-25T01:59:17.244Z"}
+{"level":"info","message":"Received distance calculation request for path: A,B,C","timestamp":"2025-01-25T01:59:17.245Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/distance","timestamp":"2025-01-25T01:59:17.254Z"},"timestamp":"2025-01-25T01:59:17.254Z"}
+{"level":"info","message":"Received distance calculation request for path: A,D","timestamp":"2025-01-25T01:59:17.255Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/max-stops","timestamp":"2025-01-25T01:59:17.264Z"},"timestamp":"2025-01-25T01:59:17.264Z"}
+{"level":"info","message":"Received route calculation request for max stops from C to C with max stops 3","timestamp":"2025-01-25T01:59:17.264Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/exact-stops","timestamp":"2025-01-25T01:59:17.270Z"},"timestamp":"2025-01-25T01:59:17.270Z"}
+{"level":"info","message":"Received route calculation request for exact stops from A to C with exact stops 4","timestamp":"2025-01-25T01:59:17.270Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/shortest","timestamp":"2025-01-25T01:59:17.278Z"},"timestamp":"2025-01-25T01:59:17.278Z"}
+{"level":"info","message":"Received shortest route calculation request from A to C","timestamp":"2025-01-25T01:59:17.278Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/within-distance","timestamp":"2025-01-25T01:59:17.285Z"},"timestamp":"2025-01-25T01:59:17.285Z"}
+{"level":"info","message":"Finding routes from C to C within distance 30","timestamp":"2025-01-25T01:59:17.286Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/distance","timestamp":"2025-01-25T02:06:18.645Z"},"timestamp":"2025-01-25T02:06:18.645Z"}
+{"level":"info","message":"Received distance calculation request for path: A,E","timestamp":"2025-01-25T02:06:18.645Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/within-distance","timestamp":"2025-01-25T02:13:23.920Z"},"timestamp":"2025-01-25T02:13:23.920Z"}
+{"level":"info","message":"Finding routes from E to A within distance 1","timestamp":"2025-01-25T02:13:23.921Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/within-distance","timestamp":"2025-01-25T02:13:27.271Z"},"timestamp":"2025-01-25T02:13:27.271Z"}
+{"level":"info","message":"Finding routes from E to A within distance 20","timestamp":"2025-01-25T02:13:27.271Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/within-distance","timestamp":"2025-01-25T02:13:31.639Z"},"timestamp":"2025-01-25T02:13:31.639Z"}
+{"level":"info","message":"Finding routes from E to A within distance 30","timestamp":"2025-01-25T02:13:31.639Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/within-distance","timestamp":"2025-01-25T02:13:37.678Z"},"timestamp":"2025-01-25T02:13:37.678Z"}
+{"level":"info","message":"Finding routes from C to C within distance 30","timestamp":"2025-01-25T02:13:37.678Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/distance","timestamp":"2025-01-25T02:19:47.458Z"},"timestamp":"2025-01-25T02:19:47.458Z"}
+{"level":"info","message":"Received distance calculation request for path: A,B,C","timestamp":"2025-01-25T02:19:47.459Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/distance","timestamp":"2025-01-25T02:19:47.467Z"},"timestamp":"2025-01-25T02:19:47.468Z"}
+{"level":"info","message":"Received distance calculation request for path: A,D","timestamp":"2025-01-25T02:19:47.468Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/max-stops","timestamp":"2025-01-25T02:19:47.477Z"},"timestamp":"2025-01-25T02:19:47.477Z"}
+{"level":"info","message":"Received route calculation request for max stops from C to C with max stops 3","timestamp":"2025-01-25T02:19:47.477Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/exact-stops","timestamp":"2025-01-25T02:19:47.484Z"},"timestamp":"2025-01-25T02:19:47.484Z"}
+{"level":"info","message":"Received route calculation request for exact stops from A to C with exact stops 4","timestamp":"2025-01-25T02:19:47.485Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/shortest","timestamp":"2025-01-25T02:19:47.491Z"},"timestamp":"2025-01-25T02:19:47.491Z"}
+{"level":"info","message":"Received shortest route calculation request from A to C","timestamp":"2025-01-25T02:19:47.491Z"}
+{"level":"info","message":{"body":{},"method":"GET","path":"/api/routes/within-distance","timestamp":"2025-01-25T02:19:47.496Z"},"timestamp":"2025-01-25T02:19:47.496Z"}
+{"level":"info","message":"Finding routes from C to C within distance 30","timestamp":"2025-01-25T02:19:47.496Z"}

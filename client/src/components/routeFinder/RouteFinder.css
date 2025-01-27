@@ -1,0 +1,34 @@
+.route-finder {
+  padding: 20px;
+}
+
+.rs-form-group {
+  margin-bottom: 20px;
+}
+
+.rs-message {
+  margin-top: 20px;
+}
+
+.rs-picker {
+  width: 100%;
+}
+
+.rs-form-control-wrapper {
+  width: 100%;
+}
+
+.route-result {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 6px;
+  background: #f8f9fa;
+}
+
+.route-item {
+  margin: 8px 0;
+  padding: 8px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+} 

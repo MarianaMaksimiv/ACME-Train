@@ -1,0 +1,203 @@
+.distance-calculator {
+  padding: 20px;
+}
+
+.calculator-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.route-builder {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 24px;
+}
+
+.section-title {
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.towns-container {
+  margin-bottom: 20px;
+}
+
+.town-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.town-select {
+  flex: 1;
+}
+
+.town-picker {
+  width: 100%;
+}
+
+.town-picker .rs-picker-toggle {
+  padding: 12px 16px;
+  height: auto;
+}
+
+.remove-button {
+  color: #dc3545;
+  transition: all 0.2s ease;
+}
+
+.remove-button:hover {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  color: #6b7280;
+  margin: 8px 0;
+  height: 24px;
+}
+
+.add-town-button {
+  color: #2563eb;
+  font-weight: 500;
+  padding: 8px 0;
+  margin-top: 8px;
+}
+
+.add-town-button:hover {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.calculate-button {
+  background: #2563eb;
+  font-weight: 500;
+  padding: 12px;
+  font-size: 1rem;
+}
+
+.calculate-button:hover:not(:disabled) {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.reset-button {
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.reset-button:hover {
+  color: #4b5563;
+  background: #f3f4f6;
+}
+
+.result-panel {
+  background: #f0fdf4;
+  border: 1px solid #86efac;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 24px;
+}
+
+.route-display {
+  margin-bottom: 12px;
+}
+
+.route-label {
+  color: #374151;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+.route-path {
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.distance-display {
+  font-size: 1.125rem;
+}
+
+.distance-label {
+  color: #374151;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+.distance-value {
+  color: #059669;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.no-route {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.result-message {
+  margin-top: 16px;
+  border-radius: 8px;
+}
+
+
+.rs-picker-toggle {
+  background: white !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease;
+}
+
+.rs-picker-toggle:hover {
+  border-color: #2563eb !important;
+}
+
+.rs-picker-toggle-active,
+.rs-picker-toggle:focus {
+  border-color: #2563eb !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2) !important;
+}
+
+.rs-picker-menu {
+  border-radius: 8px !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+.rs-picker-select-menu-item {
+  padding: 10px 16px !important;
+}
+
+.rs-picker-select-menu-item:hover {
+  background-color: #f3f4f6 !important;
+}
+
+.rs-picker-select-menu-item-active {
+  background-color: #eff6ff !important;
+  color: #2563eb !important;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .distance-calculator {
+    padding: 10px;
+  }
+  
+  .path-builder {
+    padding: 15px;
+  }
+} 
